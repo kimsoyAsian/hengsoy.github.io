@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.caculator{
+   
+    width: 550px;
+    height:875px;
+    background-color:#010833;
+    border-radius: 20px;
+    margin:6% auto;
+    
+}
+
+.caculator .output .outputResult{
+    font-size: 50px;
+    position: absolute;
+    
+}
+.caculator .input .inputResult{
+    font-size: 50px;
+    position: absolute;
+
+}
+.caculator .output{
+    width:85%;
+    height: 110px;
+    background-color:#e6e6e6 ;
+    border-radius: 10px;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caculator .input{
+    width:85%;
+    height: 110px;
+    background-color:#e6e6e6 ;
+    border-radius: 10px;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caculator .text {
+    margin-top: 5%;
+}
+.caculator .text h1{
+    font-family:Nokora ;
+    
+    fo}
+#etec{
+    font-size:50px;
+    color:#ffc000 ;
+}
+#cal{
+    font-size:50px;
+    color: #e6e6e6 ;
+}
+.NumBox{
+    width: 85%;
+    height: 300px;
+    background-color: gray;
+    border-radius: 15px;
+    margin-top: 2%;
+    position: relative;
+    
+    
+}
+.NumBox #AcBtn{
+    width: 60px;
+    height:110px ;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    top:12%;
+    font-size: 20px;
+    font-family:Nokora;
+    
+    
+}
+.NumBox #DelBtn{
+    width: 60px;
+    height:110px ;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 10%;
+    top:52%;
+    font-size: 20px;
+    font-family:Nokora;
+}
+.num{
+    width: 300px;
+    height: 200px;
+    /* background-color: rgb(75, 75, 75); */
+    position: relative;
+    top:12%;
+    left: 15%;
+    border-radius: 5px;
+}
+.num #BtnOne{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+    
+}
+.num #BtnTwo{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 25%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnThree{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnAdd{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 75%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnFour{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnFive{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 25%;
+    top:30%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnSix{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top:30%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #Btnspace{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 75%;
+    top:30%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnSvn{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnEig{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnNin{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnMul{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnZero{
+    width:50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0%;
+    top: 90%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnPoint{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnSha{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left:75%;
+    top: 90%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
+.num #BtnEqual{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left:25%;
+    top: 90%;
+    font-size: 20px;
+    color:white;
+    font-family: Nokora;
+    box-shadow:5px rgb(0, 0, 0);
+}
