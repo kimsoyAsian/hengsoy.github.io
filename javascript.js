@@ -25,9 +25,8 @@ function calculate(){
     
         return
     }
-    if(count>8){
-        return
-    }
+   
+   
     else{
 
         output.textContent += buttonText;
